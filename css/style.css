@@ -996,3 +996,436 @@ footer.main-footer {
     padding: 1rem;
   }
 }
+/* ====================================
+web banner  breadcrumb
+======================================= */
+.page-header {
+  background: linear-gradient(    to right,    rgb(0 0 0 / 50%) 0%,    rgba(2, 36, 91, 0) 100%  ), url(../img/iso-1.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  z-index: -7;
+  position: relative;
+}
+ol.breadcrumb.justify-content-center.text-uppercase a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+
+.web-banner-wrapper {
+  padding:  6rem 0;
+  /* background: #ffffff94; */
+  /* margin: 0 5rem; */
+  /* backdrop-filter: blur(5px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+strong.typing-text.headlight-h {
+  color: #fff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #e74c3c;
+}
+li.breadcrumb-item a {
+  color: #e74c3c;
+  font-weight: 600;
+}
+.breadcrumb_wrap {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  position: relative;
+  z-index: 30;
+}
+.web-banner-wrapper strong {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* background: #09b7241c; */
+  padding: 0 1rem;
+  backdrop-filter: blur(6px);
+}
+/* ====================================
+web banner css breadcrumb
+======================================= */
+/* ================================
+contact us page css starts here
+=================================== */
+section.main-contactbox {
+  padding: 2rem 0;
+}
+
+.cnt-pg-map.g-view-contact iframe {
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.get-touch {
+  padding-top: 2rem;
+}
+
+.get-touch strong {
+  color: #003049;
+  font-size: 20px;
+  display: block;
+}
+
+.get-touch .footer-box-div {
+color:#003049;
+}
+
+.contact-box-div span {
+  font-weight: 600;
+}
+.wrapper-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 1rem;
+}
+.contact-box-div {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1rem;
+}
+
+.contact-box-div span i {
+  color: #e74c3c;
+  margin-right: 10px;
+}
+.get-touch h5 {
+  font-size: 14px;
+}
+.contact-form {
+  padding: 4rem 0;
+}
+
+/* =========================
+form section
+=========================== */
+.cnt-pg-form {
+  margin: 0 10rem;
+}
+input, textarea {
+  /* background: #fff5f4 !important; */
+  border: 1px solid #ced4da59 !important;
+  padding: 10px !important;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #6c757dba !important;
+}
+
+/* ======================servcies page css starts here ============================== */
+section.details-wrapper {
+  padding: 2rem 0;
+}
+/* ------service menu list------ */
+.services-details-menu {
+  background: #fff;
+  padding: 15px 8px;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.07);
+  margin: 2rem 0;
+  display: grid;
+  border: 1px solid #eee;
+}
+.services-details-menu strong {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-left: 8px;
+}
+ul.services-menu-list {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  /* margin-top: 12px; */
+}
+ul.services-menu-list li {
+  list-style: none;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+  transition: 0.3s ease;
+}
+ul.services-menu-list a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 1px;
+  display: flex;
+}
+ul.services-menu-list li i {
+  margin: 0 10px;
+  font-size: 22px;
+}
+ul.services-menu-list li:hover {
+  /* border-bottom: 1px solid #e74c3c; */
+  background: #e74c3c;
+  color: #fff;
+}
+ul.services-menu-list li:hover a {
+  color: #fff;
+}
+ul.services-menu-list li.active {
+  border-bottom: 1px solid #e74c3c !important;
+}
+/* ------service menu list------ */
+
+.need-help {
+  background: #dee2e6;
+  padding: 25px;
+  margin: 1rem 0;
+}
+.services-datail-content {
+  padding: 2rem 0;
+}
+
+.services-datail-content img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.services-datail-content span::after {
+  /* padding-left: 1rem; */
+  border-left: 2px solid #e74c3c;
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: #e74c3c;
+  left: 0;
+  top: 0;
+}
+
+.services-datail-content span {
+  position: relative;
+  padding-left: 1rem;
+  display: block;
+  font-weight: 600;
+  color: #003049;
+}
+.highlight-points {
+  padding-bottom: 2rem;
+}
+
+.highlight-points img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hightlight-points ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+}
+
+.hightlight-points ul li {
+  list-style: none;
+  display: flex;
+  padding: 4px 0;
+}
+
+.hightlight-points ul li i {
+  color: #e74c3c;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.hightlight-points {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* =============================work & carrer page css strats here =================================== */
+section.isotope-project.container-md-xxl.work-page, section.career-section {
+  padding: 2rem 0;
+}
+.applicant-pic {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+}
+.applicant-pic img {
+  height: 460px;
+  object-fit: cover;
+  width: 50%;
+}
+.apply-form input, .apply-form textarea {
+  border: 1px solid #ced4da !important;
+}
+/* ================about us page css starts here ===================== */
+.about-us-content {
+  padding: 2rem 0;
+}.about-us-content {}
+
+.abt-box-wrapper.wrp-bg {
+  background: #003049;
+}
+
+.abt-box-wrapper {
+  padding: 2rem;
+}
+.center-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.abt-video img {
+  width: 110%;
+  margin-bottom: 10px;
+  /* height: 50%; */
+  object-fit: cover;
+}
+.abt-img-wrapper-box iframe {
+  width: 100%;
+  height: 300px;
+}
+.welcome-part-box-right li {
+  /* border: 1px solid #e74c3c; */
+}
+.abt-img-wrapper-box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.welcome-part-box-right {
+  padding: 2rem 1rem;
+}
+
+.abt-img-wrapper-box {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.welcome-part-box-right li button {
+  font-weight: 600;
+}
+
+/* =====================accordion css starts here ================================= */
+.faqs-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.faqs-wrapper h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.accordion {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em;
+  color: #333;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.accordion-item button:hover,
+.accordion-item button:focus {
+  color: #ff7637;
+}
+
+.accordion-item .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion-item .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 14px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion-item .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion-item .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion-item button[aria-expanded='true'] {
+  color: #ff7637;
+  border-bottom: 1px solid #ff7637;
+}
+
+.accordion-item button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+.accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+  padding: 0 1rem;
+}
+
+.accordion-item button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+  /* padding: 0 1rem; */
+}
