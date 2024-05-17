@@ -458,45 +458,84 @@
             </ul>
         </div>
         <div class="container">
-            <div class="portfolio-item row g-3" id="open-popup">
-                    <div class="col-md-3 col-sm-6 item one-iso">
-                        <a href="img/iso-1.jpg" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/iso-1.jpg" alt="Laser Cutting">
+            <div class="portfolio-item row g-3">
+                <div class="col-md-3 col-sm-6 item one-iso">
+                    <div class="project-wrap">
+                        <img src="img/iso-1.jpg" alt="Laser Cutting">
+                        <div class="content-display">
+                            <strong>Resisdential Area</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item two-iso">
-                        <a href="img/about-1.png" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/about-1.png" alt="CNC Bending">
+                </div>
+                <div class="col-md-3 col-sm-6 item two-iso">
+                    <div class="project-wrap">
+                        <img src="img/about-1.png" alt="CNC Bending">
+                        <div class="content-display">
+                            <strong>Event Centers & Schools</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item one-iso">
-                        <a href="img/about-2.png" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/about-2.png" alt="Laser Cutting">
+                </div>
+                <div class="col-md-3 col-sm-6 item one-iso">
+                    <div class="project-wrap">
+                        <img src="img/about-2.png" alt="Laser Cutting">
+                        <div class="content-display">
+                            <strong>Resisdential Area</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item three-iso">
-                        <a href="img/serv-1.jpg" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/serv-1.jpg" alt="Fabrication">
+                </div>
+                <div class="col-md-3 col-sm-6 item three-iso">
+                    <div class="project-wrap">
+                        <img src="img/serv-1.jpg" alt="Fabrication">
+                        <div class="content-display">
+                            <strong>Industrial & Warehouse</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item one-iso">
-                        <a href="img/serv-2.jpg" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/serv-2.jpg" alt="Laser Cutting">
+                </div>
+                <div class="col-md-3 col-sm-6 item one-iso">
+                    <div class="project-wrap">
+                        <img src="img/serv-2.jpg" alt="Laser Cutting">
+                        <div class="content-display">
+                            <strong>Resisdential Area</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item three-iso">
-                        <a href="img/serv-3.jpg" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/serv-3.jpg" alt="Fabrication">
+                </div>
+                <div class="col-md-3 col-sm-6 item three-iso">
+                    <div class="project-wrap">
+                        <img src="img/serv-3.jpg" alt="Fabrication">
+                        <div class="content-display">
+                            <strong>Industrial & Warehouse</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item three-iso">
-                        <a href="img/carousel-1.jpg" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/carousel-1.jpg" alt="Fabrication">
+                </div>
+                <div class="col-md-3 col-sm-6 item three-iso">
+                    <div class="project-wrap">
+                        <img src="img/carousel-1.jpg" alt="Fabrication">
+                        <div class="content-display">
+                            <strong>Industrial & Warehouse</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 item three-iso">
-                        <a href="img/carousel-2.jpg" class="image-link-js test-popup-link" id="my-popup" data-lightbox="pop-images" title="pop images"></a>
-                        <img class="pop-images aos-init aos-animate" src="img/carousel-2.jpg" alt="Fabrication">
+                </div>
+                <div class="col-md-3 col-sm-6 item three-iso">
+                    <div class="project-wrap">
+                        <img src="img/carousel-2.jpg" alt="Fabrication">
+                        <div class="content-display">
+                            <strong>Industrial & Warehouse</strong>
+                            <p> It have one level of park underground parking.</p>
+                        </div>
                     </div>
+                </div>
             </div>
             <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
                 <a href="#" class="btn btn-theme py-3 px-4">View all Projects</a>
             </div>
         </div>
-
     </section>
 
     <!-- isotope project -->
@@ -646,6 +685,13 @@
     <?php include('inc/footer.html') ?>
 
     <?php include('inc/js.html') ?>
+
+    <script>
+        const navItems = document.querySelectorAll('.navbar .navbar-nav .nav-link');
+        if (navItems.length >= 1) {
+            navItems[0].classList.add("active");
+        }
+    </script>
 
 </body>
 

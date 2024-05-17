@@ -5,7 +5,7 @@
 .portfolio-menu ul li {
   list-style: none;
   display: inline-block;
-  margin: 20px 0;
+  margin: 6px 0;
   border: 1px solid #e74c3c;
   padding: 10px 20px;
   cursor: pointer;
@@ -32,6 +32,8 @@
 .portfolio-item .item img {
   width: 100%;
   height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 @media (max-width: 35em) {
   .portfolio-menu ul li {
@@ -41,4 +43,16 @@
     width: 100%;
     padding-right: 15px;
   }
+}
+
+ul.isotope-ul {
+  /* display: block; */
+  padding: 0;
+  /* text-wrap: balance; */
+}
+
+.portfolio-item a.btn.btn-primary {
+  background: transparent;
+  padding: 0;
+  border: 0;
 }

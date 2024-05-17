@@ -256,6 +256,7 @@ h6,
 .page-header .breadcrumb-item a {
   font-size: 18px;
   color: var(--light);
+  letter-spacing: 0;
 }
 .banner-text strong {
   display: block;
@@ -834,9 +835,9 @@ footer.main-footer {
   max-height: 80%;
 }
 @media (max-width: 35em) {
-  .navbar .navbar-brand {
+  /* .navbar .navbar-brand {
     width: 85%;
-  }
+  } */
   .VideoContent:before {
     display: none;
   }
@@ -897,7 +898,7 @@ footer.main-footer {
   padding-top: 10px;
   margin-bottom: -6rem; /* Uncomment if you want to use flexbox */
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .footer-contact i {
@@ -999,68 +1000,47 @@ footer.main-footer {
 /* ====================================
 web banner  breadcrumb
 ======================================= */
+
+/* ===web banner css===== */
 .page-header {
   background: linear-gradient(    to right,    rgb(0 0 0 / 50%) 0%,    rgba(2, 36, 91, 0) 100%  ), url(../img/iso-1.jpg);
+  height: 350px;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 4rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 2rem;
-  z-index: -7;
-  position: relative;
 }
 ol.breadcrumb.justify-content-center.text-uppercase a {
-  color: #e74c3c;
+  color: #fff;
   text-decoration: none;
   font-style: normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 1rem;
-  font-weight: 700;
-  font-size: 18px;
-  margin: 0;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  margin-top: 3px;
 }
-
 .web-banner-wrapper {
-  padding:  6rem 0;
-  /* background: #ffffff94; */
+  padding: 2rem 0;
+  /* background: #f0f8ff7d; */
+  /* width: 50%; */
   /* margin: 0 5rem; */
   /* backdrop-filter: blur(5px); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 strong.typing-text.headlight-h {
+  font-size: 40px;
   color: #fff;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-  color: #e74c3c;
-}
-li.breadcrumb-item a {
-  color: #e74c3c;
-  font-weight: 600;
-}
-.breadcrumb_wrap {
-  display: flex;
-  align-items: center;
-  background: transparent;
-  position: relative;
-  z-index: 30;
-}
-.web-banner-wrapper strong {
-  color: #fff;
-  font-size: 48px;
-  font-weight: 600;
-  font-optical-sizing: auto;
-  font-style: normal;
-  /* background: #09b7241c; */
-  padding: 0 1rem;
-  backdrop-filter: blur(6px);
+  letter-spacing: 0;
 }
 /* ====================================
 web banner css breadcrumb
@@ -1068,10 +1048,6 @@ web banner css breadcrumb
 /* ================================
 contact us page css starts here
 =================================== */
-section.main-contactbox {
-  padding: 2rem 0;
-}
-
 .cnt-pg-map.g-view-contact iframe {
   width: 100%;
   padding-right: 2rem;
@@ -1113,18 +1089,19 @@ color:#003049;
   font-size: 14px;
 }
 .contact-form {
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
 }
 
 /* =========================
 form section
 =========================== */
 .cnt-pg-form {
-  margin: 0 10rem;
+  /* margin: 0 10rem; */
 }
 input, textarea {
   /* background: #fff5f4 !important; */
-  border: 1px solid #ced4da59 !important;
+  /* border: 1px solid #ced4da59 !important; */
+  border: 1px solid #ced4da;
   padding: 10px !important;
 }
 
@@ -1134,7 +1111,7 @@ input::placeholder, textarea::placeholder {
 
 /* ======================servcies page css starts here ============================== */
 section.details-wrapper {
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 /* ------service menu list------ */
 .services-details-menu {
@@ -1175,15 +1152,17 @@ ul.services-menu-list li i {
   font-size: 22px;
 }
 ul.services-menu-list li:hover {
-  /* border-bottom: 1px solid #e74c3c; */
   background: #e74c3c;
-  color: #fff;
 }
 ul.services-menu-list li:hover a {
-  color: #fff;
+  color: #fff !important;
 }
 ul.services-menu-list li.active {
-  border-bottom: 1px solid #e74c3c !important;
+  /* border-bottom: 1px solid #e74c3c !important; */
+  background: #e74c3c;
+}
+ul.services-menu-list li.active a{
+  color: #fff;
 }
 /* ------service menu list------ */
 
@@ -1192,9 +1171,9 @@ ul.services-menu-list li.active {
   padding: 25px;
   margin: 1rem 0;
 }
-.services-datail-content {
+/* .services-datail-content {
   padding: 2rem 0;
-}
+} */
 
 .services-datail-content img {
   width: 100%;
@@ -1255,8 +1234,8 @@ ul.services-menu-list li.active {
 }
 
 /* =============================work & carrer page css strats here =================================== */
-section.isotope-project.container-md-xxl.work-page, section.career-section {
-  padding: 2rem 0;
+section.isotope-project.container-md-xxl.work-page, section.career-section, section.aboutus-wrapper, section.main-contactbox, .services-page-wrapper {
+  padding: 3rem 0;
 }
 .applicant-pic {
   display: flex;
@@ -1274,8 +1253,8 @@ section.isotope-project.container-md-xxl.work-page, section.career-section {
 }
 /* ================about us page css starts here ===================== */
 .about-us-content {
-  padding: 2rem 0;
-}.about-us-content {}
+  padding: 1rem 0;
+}
 
 .abt-box-wrapper.wrp-bg {
   background: #003049;
@@ -1290,9 +1269,9 @@ section.isotope-project.container-md-xxl.work-page, section.career-section {
   height: 100%;
 }
 .abt-video img {
-  width: 110%;
+  width: 100%;
   margin-bottom: 10px;
-  /* height: 50%; */
+  height: 200px;
   object-fit: cover;
 }
 .abt-img-wrapper-box iframe {
@@ -1308,7 +1287,7 @@ section.isotope-project.container-md-xxl.work-page, section.career-section {
 }
 
 .welcome-part-box-right {
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .abt-img-wrapper-box {
@@ -1429,3 +1408,72 @@ section.isotope-project.container-md-xxl.work-page, section.career-section {
   will-change: opacity, max-height;
   /* padding: 0 1rem; */
 }
+
+/* ============modal css starts here =================== */
+.modal-body img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.modal-dialog {
+  min-width: 800px;
+}
+/* ==================== Hover Effect-translatey======================= */
+.content-display p {
+  font-size: 13px;
+}
+
+.project-wrap {
+  position: relative;
+  overflow: hidden; 
+}
+
+.project-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content-display {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  transform: translateY(100%); 
+}
+
+.project-wrap:hover .content-display {
+  transform: translateY(0); 
+}
+/* =======================services page details================================= */
+.services-datail-content .col-md-4 img {
+  width: auto;
+  height: auto;
+}
+
+.describe-text .card-title {
+  font-size: 28px;
+}
+.consulting-design .project-wrap {
+  height: 250px;
+  width: 100%;
+  padding: 4px;
+}
+
+.consulting-design .project-wrap img {
+  height: 100%;
+}
+/* .content {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 3px;
+} */

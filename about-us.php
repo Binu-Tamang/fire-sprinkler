@@ -20,7 +20,6 @@
     <!-- ========================header section here ============================ -->
 
     <!-- banner and headre page  -->
-    <?php $page_title = 'About Us ' ?>
     <?php $page_name = 'About Us' ?>
     <?php include('inc/breadcrumb.php') ?>
     <!-- banner and header page -->
@@ -63,22 +62,26 @@
 
             <div class="about-us-content">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="center-box">
-                            <div class="abt-video">
-                                <img src="img/serv-2.jpg" alt="First Image">
-                                <img src="img/serv-1.jpg" alt="First Image">
+                    <div class="col-md-6">
+                        <!-- <div class="abt-video">
+                            <img src="img/serv-2.jpg" alt="First Image">
+                            <img class="d-none d-sm-block" src="img/serv-1.jpg" alt="First Image">
+                        </div> -->
+                        <div class="d-none d-md-block">
+                            <div class="applicant-pic">
+                                <img class="img-fluid shine" src="img/iso-1.jpg">
+                                <img class="img-fluid shine img-width" src="img/about-1.png">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <!-- <div class="col-md-4">
                         <div class="abt-box-wrapper wrp-bg">
-                            <!-- <h2 class="card-title text-white">About Us </h2> -->
+                            <h2 class="card-title text-white">About Us </h2>
                             <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel excepturi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eos nesciunt distinctio sunt iure illum, repellat cupiditate reprehenderit asperiores adipisci, labore sint accusamus. Voluptatem magni ipsam corporis nam mollitia necessitatibus. ducimus consequatur sequi itaque? Maxime officiis sed quasi voluptas magni, natus, odio facere ducimus quisquam a beatae, enim consectetur!</p>
                             <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt velit repudiandae perferendis, eum reprehenderit quod nobis, nemo, rem esse error asperiores! Quod, dicta animi.</p>
                         </div>
-                    </div>
-                    <div class="col-md-4">
+                    </div> -->
+                    <div class="col-md-6">
                         <div class="center-box">
                             <div class="abt-box-wrapper p-1">
                                 <h2 class="card-title">Why Choose Us</h2>
@@ -97,66 +100,75 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-4">
+            <div class="about-us-content pt-3">
+                <div class="row">
+                    <div class="col-md-4">
                         <h2>Frequently Asked Questions</h2>
-                    <div class="need-help">
-                        <strong>Need Help ?</strong>
-                        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur molestias cum corrupti voluptas culpa dicta, aut</p>
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                <i class="fa fa-phone-alt text-white"></i>
-                            </div>
-                            <div class="ms-3">
-                                <!-- <p class="mb-2">Call us</p> -->
-                                <h5 class="mb-0">778-837-2899</h5>
+                        <div class="need-help">
+                            <strong>Need Help ?</strong>
+                            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur molestias cum corrupti voluptas culpa dicta, aut</p>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-phone-alt text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <!-- <p class="mb-2">Call us</p> -->
+                                    <h5 class="mb-0">778-837-2899</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="faqs-wrapper">
-                        <div class="accordion">
-                            <div class="accordion-item">
-                                <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                    <div class="col-md-8">
+                        <div class="faqs-wrapper">
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                <div class="accordion-item">
+                                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                <div class="accordion-item">
+                                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                <div class="accordion-item">
+                                    <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions ?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions?</span><span class="icon" aria-hidden="true"></span></button>
-                                <div class="accordion-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                <div class="accordion-item">
+                                    <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Frequently Asked Questions?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
     <?php include('inc/footer.html') ?>
 
     <?php include('inc/js.html') ?>
+    <script>
+        const navItems = document.querySelectorAll('.navbar .navbar-nav .nav-link');
+        if (navItems.length >= 2) {
+            navItems[1].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

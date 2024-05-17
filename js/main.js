@@ -148,25 +148,25 @@ $(".portfolio-menu ul li").click(function () {
 });
 
 // popup images
-document.addEventListener("DOMContentLoaded", function () {
-  const portfolioItems = document.querySelectorAll(".item");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const portfolioItems = document.querySelectorAll(".item");
 
-  portfolioItems.forEach(function (item) {
-    const image = item.querySelector("img");
-    const popupContainer = document.createElement("div");
-    popupContainer.classList.add("popup-container");
-    popupContainer.innerHTML = `<img class="popup-image" src="${image.src}" alt="">`;
-    document.body.appendChild(popupContainer);
+//   portfolioItems.forEach(function (item) {
+//     const image = item.querySelector("img");
+//     const popupContainer = document.createElement("div");
+//     popupContainer.classList.add("popup-container");
+//     popupContainer.innerHTML = `<img class="popup-image" src="${image.src}" alt="">`;
+//     document.body.appendChild(popupContainer);
 
-    item.addEventListener("click", function () {
-      popupContainer.style.display = "flex";
-    });
+//     item.addEventListener("click", function () {
+//       popupContainer.style.display = "flex";
+//     });
 
-    popupContainer.addEventListener("click", function () {
-      popupContainer.style.display = "none";
-    });
-  });
-});
+//     popupContainer.addEventListener("click", function () {
+//       popupContainer.style.display = "none";
+//     });
+//   });
+// });
 
 // accordion js starts here
 document.addEventListener('DOMContentLoaded', function() {

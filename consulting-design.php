@@ -20,7 +20,7 @@
     <!-- ========================header section here ============================ -->
 
     <!-- banner and headre page  -->
-    <?php $page_name = 'Our Services / Underground Services' ?>
+    <?php $page_name = 'Our Services / Consulting, Design & Installation' ?>
     <?php include('inc/breadcrumb.php') ?>
     <!-- banner and header page -->
 
@@ -73,13 +73,46 @@
                 <div class="col-md-8">
                     <div class="services-datail-content">
                         <!-- <img src="img/serv-3.jpg" alt="First Image"> -->
-                        <h2 class="card-title mt-4">Underground Services</h2>
+                        <h2 class="card-title mt-4">Consulting, Design & Installation</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolor earum suscipit odio maiores. Deserunt, ex! Repudiandae velit, nihil debitis quia ipsa perferendis eveniet aliquam ullam veniam in, rem accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptates explicabo eius, rerum molestiae atque, temporibus ducimus beatae eum obcaecati, vitae quae provident et dolore doloribus. Consequuntur dolores modi fugit.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eos sed deleniti modi maiores ducimus doloribus omnis rem inventore quod sequi, rerum, aspernatur consectetur delectus quasi maxime obcaecati, reprehenderit illo!</p>
-                        <span class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, incidunt odit, illo quas consequatur consequuntur quidem quis ducimus iure ratione dolore sunt fugiat ab, nam eius vel alias magni quaerat.</span>
+                        <!-- <span class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, incidunt odit, illo quas consequatur consequuntur quidem quis ducimus iure ratione dolore sunt fugiat ab, nam eius vel alias magni quaerat.</span> -->
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, temporibus. Cum laboriosam at perferendis harum modi vitae nulla quibusdam. Ea reiciendis officiis veniam aliquid quod? Nihil distinctio dolor non animi?</p> -->
-                    </div>
+                        <div class="d-flex consulting-design">
+                            <div class="project-wrap">
+                                <img src="img/iso-1.jpg" alt="Laser Cutting">
+                                <div class="content-display">
+                                    <strong> WET AND DRY FIRE SPRINKLER SYSTEMS</strong>
+                                </div>
+                            </div>
 
-                    <div class="highlight-points">
+                            <div class="project-wrap">
+                                <img src="img/serv-2.jpg" alt="Laser Cutting">
+                                <div class="content-display">
+                                    <strong> PROTECTION SYSTEMS FOR SCHOOL BUILDINGS</strong>
+                                </div>
+                            </div>
+
+                            <div class="project-wrap">
+                                <img src="img/serv-3.jpg" alt="Laser Cutting">
+                                <div class="content-display">
+                                    <strong> FIRE ALARM SYSTEMS, CLEAN-AGENT SYSTEMS, AND SPECIAL HAZARD SYSTEMS</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="d-flex consulting-design">
+                            <div class="content">
+                                <strong> WET AND DRY FIRE SPRINKLER SYSTEMS</strong>
+                            </div>
+                            <div class="content">
+                                <strong> PROTECTION SYSTEMS FOR SCHOOL BUILDINGS</strong>
+                            </div>
+                            <div class="content">
+                                <strong> FIRE ALARM SYSTEMS, CLEAN-AGENT SYSTEMS, AND SPECIAL HAZARD SYSTEMS</strong>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="highlight-points pt-3">
                         <div class="row">
                             <div class="col-md-6">
                                 <img src="img/serv-1.jpg" alt="First Image">
@@ -99,6 +132,7 @@
                     </div>
                 </div>
             </div>
+            
 
             <!-- <div class="row">
                 <div class="col-md-6">
@@ -125,8 +159,8 @@
         }
 
         const serviceNav = document.querySelectorAll('ul.services-menu-list > li');
-        if (serviceNav.length >= 3) {
-            serviceNav[2].classList.add("active");
+        if (serviceNav.length >= 2) {
+            serviceNav[1].classList.add("active");
         }
     </script>
 </body>

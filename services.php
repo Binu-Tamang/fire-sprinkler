@@ -20,18 +20,21 @@
     <!-- ========================header section here ============================ -->
 
     <!-- banner and headre page  -->
-    <?php $page_title = 'Our Services ' ?>
     <?php $page_name = 'Our Services' ?>
     <?php include('inc/breadcrumb.php') ?>
     <!-- banner and header page -->
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="services-page-wrapper">
         <div class="container">
             <!-- <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s">
                 <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
                 <h1 class="display-5">We Provide Best Services</h1>
             </div> -->
+            <h2 class="card-title text-center">Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quidem esse ullam. Pariatur voluptatibus cumque voluptates inventore explicabo nulla facere expedita voluptatum, aspernatur, voluptatem quidem animi molestiae laudantium harum labore?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quidem esse ullam. Pariatur voluptatibus cumque voluptates inventore explicabo nulla facere expedita voluptatum, aspernatur, voluptatem quidem animi molestiae laudantium harum labore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit magni distinctio dolorum, repudiandae pariatur et. Magni, sed! Laudantium ipsa maiores amet nulla harum corporis, aliquam quae. Iure, unde natus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quidem esse ullam. Pariatur voluptatibus cumque voluptates inventore explicabo nulla facere expedita voluptatum, aspernatur, voluptatem quidem animi molestiae laudantium harum labore?</p>
             <div class="row gy-5 gx-4 mt-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card gy-5">
@@ -104,6 +107,13 @@
     <?php include('inc/footer.html') ?>
 
     <?php include('inc/js.html') ?>
+
+    <script>
+        const navItems = document.querySelectorAll('.navbar .navbar-nav .nav-link');
+        if (navItems.length >= 3) {
+            navItems[2].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>

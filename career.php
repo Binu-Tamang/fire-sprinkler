@@ -19,7 +19,6 @@
     <!-- ========================header section here ============================ -->
 
     <!-- banner and headre page  -->
-    <?php $page_title = 'Career ' ?>
     <?php $page_name = 'Career' ?>
     <?php include('inc/breadcrumb.php') ?>
     <!-- banner and header page -->
@@ -62,12 +61,12 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <!-- <div class="col-12">
                                 <div class="form-floating">
                                     <p><span class="wpcf7-form-control-wrap" data-name="company"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="company" aria-required="true" aria-invalid="false" placeholder="Company Name" value="" type="text" name="company"></span>
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="col-12">
                                 <div class="form-floating">
                                     <p><span class="wpcf7-form-control-wrap" data-name="address"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="address" aria-required="true" aria-invalid="false" placeholder="Address" value="" type="text" name="address"></span>
@@ -108,6 +107,13 @@
     <?php include('inc/footer.html') ?>
 
     <?php include('inc/js.html') ?>
+
+    <script>
+        const navItems = document.querySelectorAll('.navbar .navbar-nav .nav-link');
+        if (navItems.length >= 5) {
+            navItems[4].classList.add("active");
+        }
+    </script>
 </body>
 
 </html>
