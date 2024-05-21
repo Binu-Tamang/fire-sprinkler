@@ -33,7 +33,7 @@
                     <div class="col-md-6 pb-3">
                         <div class=" mx-auto pb-2" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                             <p class="fw-medium text-uppercase text-primary mb-2">Contact Us</p>
-                            <h1 class="display-5">If You Have Any Queries, Please Feel Free To Contact Us</h1>
+                            <h2 class="">If You Have Any Queries, Please Feel Free To Contact Us</h2>
                         </div>
                         <p class="mb-3">Feel free to reach out for more details. Alternatively, you can use our convenient form to request information. We're eager to assist and will respond promptly.</p>
                         
@@ -43,7 +43,7 @@
                             </div>
                             <div class="ms-3">
                                 <p class="mb-2">Our Location</p>
-                                <h5 class="mb-0">Vancouver, BC V6P 5G3, Canada</h5>
+                                <h5 class="mb-0">Vancouver, BC. V6P 5G3</h5>
                             </div>
                         </div>
 

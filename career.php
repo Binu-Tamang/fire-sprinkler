@@ -28,9 +28,9 @@
             <div class="text-center mx-auto">
                 <h1 class="display-5 mb-2">Employment Opportunities</h1>
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore itaque fugiat obcaecati architecto repudiandae quibusdam, ipsa iure qui vero rerum iusto nisi deleniti, nostrum doloremque, autem tempore corporis reiciendis aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae blanditiis reiciendis fugit, aliquam iusto aliquid exercitationem ullam iure est alias. Voluptatum reprehenderit expedita soluta fugiat nisi, ab distinctio! Qui.</p>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore itaque fugiat obcaecati architecto repudiandae quibusdam, ipsa iure qui vero rerum iusto nisi deleniti, nostrum doloremque, autem tempore corporis reiciendis aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae blanditiis reiciendis fugit, aliquam iusto aliquid exercitationem ullam iure est alias. Voluptatum reprehenderit expedita soluta fugiat nisi, ab distinctio! Qui.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo corrupti voluptatem modi repellat vel tenetur laboriosam, tempore incidunt nobis nihil repudiandae distinctio, quae provident inventore accusamus sit beatae voluptatibus!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores unde iure delectus porro ea consectetur inventore corrupti non quae, doloribus deleniti consequatur soluta. Animi in placeat blanditiis, culpa delectus tempora?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores unde iure delectus porro ea consectetur inventore corrupti non quae, doloribus deleniti consequatur soluta. Animi in placeat blanditiis, culpa delectus tempora?</p> -->
 
             <div class="apply-form ">
                 <div class="row">

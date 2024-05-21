@@ -73,28 +73,8 @@
                     <div class="card gy-5">
                         <img src="img/serv-1.jpg" alt="First Image">
                         <div class="card-body">
-                            <h2 class="card-title">Design and Consultation</h2>
+                            <h2 class="card-title">New Construction</h2>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut possimus, necessitatibus cum facilis numquam eligendi unde vero aliquam alias voluptas laboriosam aspernatur quos explicabo excepturi id quasi! Qui, id voluptatibus!</p>
-                            <a href="services-detail-page.php" class="btn">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="card gy-5">
-                        <img src="img/serv-2.jpg" alt="First Image">
-                        <div class="card-body">
-                            <h2 class="card-title">Inspection and Repair</h2>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consequatur eveniet accusamus, culpa voluptates quaerat blanditiis cupiditate nobis libero repudiandae ea modi molestiae nesciunt, odio pariatur ipsa cum sint repellendus!</p>
-                            <a href="services-detail-page.php" class="btn">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="card gy-5">
-                        <img src="img/serv-3.jpg" alt="First Image">
-                        <div class="card-body">
-                            <h2 class="card-title">Underground Services</h2>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab facere non sint soluta neque tenetur corporis? Nam earum adipisci non consequatur eaque aut. Consequatur, amet nesciunt expedita vero non quo.</p>
                             <a href="services-detail-page.php" class="btn">Read More</a>
                         </div>
                     </div>

@@ -206,7 +206,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <p class="fw-medium text-uppercase text-primary mb-2">Why Choosing Us!</p>
-                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
+                    <h2 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h2>
                     <p class="mb-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod earum quaerat? Sapiente repellat alias laboriosam ipsam illum.
                     </p>
